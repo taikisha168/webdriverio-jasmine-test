@@ -1,0 +1,25 @@
+{
+  "name": "webdriverio-jasmin-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.0.18",
+    "@wdio/jasmine-framework": "^6.0.16",
+    "@wdio/local-runner": "^6.0.18",
+    "@wdio/mocha-framework": "^6.0.16",
+    "@wdio/spec-reporter": "^6.0.16",
+    "@wdio/sync": "^6.0.18",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.2"
+  },
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
